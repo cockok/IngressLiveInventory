@@ -21,7 +21,7 @@ function wrapper(plugin_info) {
 	if (typeof window.plugin !== "function") window.plugin = function () {};
 	const KEY_SETTINGS = "plugin-live-inventory";
 	let settings = {
-		displayMode: 'icon',
+		displayMode: 'count',
 	};
 
 	window.plugin.LiveInventory = function () {};
